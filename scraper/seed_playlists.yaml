@@ -1,0 +1,15 @@
+# Seed playlists.
+#
+# A seed playlist is a *starting point* for discovery: we walk the videos in
+# the playlist, extract the unique uploader channels behind them, and add
+# those channels to the pool for full expansion (walking each channel's
+# /videos tab).
+#
+# This is how we grow the corpus without having to curate channels by hand —
+# a community-shared playlist becomes a tribe of creators.
+#
+# Unlisted playlists work fine (the URL is the only capability needed).
+
+playlists:
+  - url: "https://youtube.com/playlist?list=PLP8jq0dWTS9jky4eOahw0XpvaluvBqpw4"
+    note: "Community seed (unlisted): Physical AI / ESP32 creators. Expand all uploaders found here."

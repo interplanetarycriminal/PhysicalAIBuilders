@@ -1,0 +1,67 @@
+# Curated creators whose YouTube channels focus on Physical AI, ESP32,
+# embedded ML, sensors, and maker builds. Each entry is a channel HANDLE
+# (preferred) or channel_id. yt-dlp will resolve handles dynamically.
+#
+# Add or remove creators freely — this list is a starting seed, not a
+# canonical list. When you add one, write a one-line note on what they
+# distinctively bring so the community can see the niche they fill.
+#
+# Verify handles before committing (handles can change). The scraper
+# records resolution failures to output/errors.log rather than crashing.
+
+creators:
+  - handle: "@AndreasSpiess"
+    note: "Swiss maker, measurement-first ESP32/ESP8266 deep dives, radio and IoT."
+  - handle: "@atomic14"
+    note: "ESP32 + embedded ML, TinyML speech, LVGL UIs, audio processing."
+  - handle: "@bitluni"
+    note: "Creative ESP32 video/audio tricks, pushing peripherals past spec."
+  - handle: "@VolosProjects"
+    note: "ESP32-S3 + LVGL devices, gorgeous compact builds."
+  - handle: "@unexpectedmaker"
+    note: "Designs his own ESP32-S3 / S2 / C3 boards; candid build process."
+  - handle: "@thatproject"
+    note: "Polished ESP32 project tutorials, vision and displays."
+  - handle: "@DavesGarage"
+    note: "Former MSFT engineer, LED & ESP32 firmware depth, systems perspective."
+  - handle: "@Dronebotworkshop"
+    note: "Careful, teacher-grade walkthroughs of sensors and modules."
+  - handle: "@RalphSBacon"
+    note: "Approachable ESP32 + Arduino weekly, pragmatic code."
+  - handle: "@Electronoobs"
+    note: "Broad embedded + power electronics; good sensor integration examples."
+  - handle: "@SeeedStudio"
+    note: "Maker-oriented hardware explainers (XIAO ESP32, Grove AI)."
+  - handle: "@espressifsystems"
+    note: "Official Espressif channel — reference behavior, ESP-IDF talks."
+  - handle: "@edgeimpulse"
+    note: "TinyML on microcontrollers; pipelines for audio/vision/IMU models."
+  - handle: "@ShawnHymel"
+    note: "TinyML + embedded systems teaching; clean, end-to-end tutorials."
+  - handle: "@greatscottlab"
+    note: "Electronics fundamentals + ESP-based projects with deep measurement."
+  - handle: "@RuiSantosdotme"
+    note: "Random Nerd Tutorials author; reliable ESP32 written+video content."
+  - handle: "@MakerPortal"
+    note: "Math-meets-maker Python + ESP32, signal processing explanations."
+  - handle: "@MrSolderFix"
+    note: "Soldering/rework craft — necessary for anyone building hardware."
+  - handle: "@LearnEmbeddedSystems"
+    note: "Embedded fundamentals (RTOS, peripherals) that level up ESP-IDF work."
+  - handle: "@element14presents"
+    note: "Industry-grade sensor and module walkthroughs."
+  - handle: "@digikey"
+    note: "Sensor/module deep dives, often with working reference code."
+  - handle: "@BrainWaveCollective"
+    note: "Creative AI + physical builds — verify handle before relying on it."
+  - handle: "@ArduinoTeam"
+    note: "Official Arduino channel — includes ESP32-compatible workflows."
+  - handle: "@kdarrah"
+    note: "Kevin Darrah — hardware measurement and teardown craft."
+  - handle: "@MICROENG"
+    note: "Micro engineering — ESP32 + peripherals, verify handle."
+
+# TIP: contributors — if you know channel IDs (UC...), you can add them
+# under `channel_ids:` below for pin-point reliability. Handles are
+# user-friendly but can be reclaimed; IDs are stable.
+channel_ids: []
