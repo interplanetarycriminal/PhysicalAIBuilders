@@ -1,0 +1,11 @@
+yt-dlp>=2024.10.0
+PyYAML>=6.0
+
+# Optional — only needed if you pass --whisper to transcribe_videos.py
+# for videos that don't have YouTube-provided captions. Requires ffmpeg
+# on PATH. CPU works; GPU is much faster.
+faster-whisper>=1.0.0 ; python_version >= "3.9"
+
+# Optional — only needed for synthesize_docs.py (turns transcripts into
+# learning docs via the Anthropic API). Set ANTHROPIC_API_KEY.
+anthropic>=0.40.0
