@@ -25,8 +25,9 @@ Edit [`scraper/creators.yaml`](scraper/creators.yaml). Add their channel handle 
 ## Style
 
 - **Short, dense, vivid.** No filler paragraphs.
-- **Name the asymmetry.** Every build should answer: *what does the wielder know or do that others can't?*
+- **Name BOTH asymmetries.** Every build should answer: *what does the wielder perceive that others can't?* AND *what meaning does the software assign that others haven't imagined?* See [`framework/information-asymmetry.md`](framework/information-asymmetry.md) §"Two axes" and [`framework/software-as-imagination.md`](framework/software-as-imagination.md).
 - **Name the software pair.** No hardware without its software twin.
+- **Refuse one-dimensional software.** If your build reads a humidity sensor and calls it a leak, go back and write three more meanings for the same signal (a handshake, a spell, a vote, a heartbeat). Contribute at least one of them as a riff in [`framework/riff-book.md`](framework/riff-book.md).
 - **Cite buying sources by vendor name**, not by speculative URLs. The community can keep links current; our job is to be right about what to buy.
 
 ## Ethics of asymmetry

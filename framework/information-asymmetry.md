@@ -2,9 +2,20 @@
 
 ## The one-line version
 
-> An ESP32 build is valuable exactly to the degree that it lets its wielder **perceive, infer, or act on** something that the rest of the room cannot.
+> An ESP32 build is valuable exactly to the degree that it lets its wielder **perceive, infer, act on, or *assign fresh meaning to*** something that the rest of the room cannot.
 
-That gap — between what you know and what others know — is an **information asymmetry**. Every great Physical-AI build is a machine for manufacturing one.
+That gap — between what you know and what others know, **and between what you can make a signal mean and what they can** — is an **information asymmetry**. Every great Physical-AI build is a machine for manufacturing one.
+
+## Two axes of asymmetry (read this twice)
+
+Asymmetry is not only about **perceiving** things others can't. It is just as much about **assigning meanings** to signals that others haven't imagined assigning.
+
+1. **Perception asymmetry** — *your sensor sees what theirs doesn't.* Thermal, CSI, mmWave breathing, VOC, spectral reflectance. This was the entire framing of the original draft of this doc; it's necessary but far from sufficient.
+2. **Meaning asymmetry** — *your software decides the signal means something fresh.* A capacitive humidity sensor reports a scalar that spikes when a finger touches it. The traditional meaning is "water event." A creative software layer can decide it means a **handshake** between two strangers across a city, a **spell** in a game, a **vote** in a gallery, a **heartbeat** in a story, a **key** in a combination lock, a **beat** in an improvised piece of music. The sensor has not changed. The software has imagined.
+
+The second axis is **unbounded**. See [`software-as-imagination.md`](software-as-imagination.md) for the twelve modes of software-layer creativity and a riff book of worked examples.
+
+**Rule of thumb:** if your build's README only describes perception asymmetry, you've done half the thinking. Ask: *what else could this signal mean, if I wrote a different program around it?*
 
 ## Where asymmetries come from
 

@@ -2,19 +2,23 @@
 
 A visionary, playful, and responsible field manual for the **Physical AI Builders community** — where ESP32s, sensors, add-ons, and the unlimited creativity of software combine into projects that give their wielder an **information asymmetry advantage** over the ordinary world.
 
-> **Our thesis.** The ESP32 is the cheapest general-purpose way to teach a patch of the physical world to speak. When you pair one with the right sensors, and pair the sensor data with the right software, you create an information asymmetry: you see, hear, feel, and infer things nobody else in the room can. That asymmetry is the raw material of every great build — from spy gadgets to beekeeper tools to wildfire lookouts to sleep coaches.
+> **Our thesis.** The ESP32 is the cheapest general-purpose way to teach a patch of the physical world to speak. When you pair one with the right sensors, and pair the sensor data with the right *imaginative* piece of software, you create an information asymmetry on **two** axes: you **see** things nobody else in the room can, AND you **decide what those signals mean** in ways nobody else has imagined. A capacitive humidity sensor touched by a finger reports a "water value" — in ordinary software that's a leak; in creative software it's a handshake between two cities, a spell in a game, a vote in a gallery, a heartbeat in a story. Same hardware. Different genre. That second axis is **unbounded**, and most of the fun lives there.
+
+> **Read order:** start at [`framework/learning-levels.md`](framework/learning-levels.md) to pick your rung, then [`framework/information-asymmetry.md`](framework/information-asymmetry.md) for the two axes, then [`framework/software-as-imagination.md`](framework/software-as-imagination.md) for what software *can* do once you stop thinking one-dimensionally.
 
 ## Navigation
 
 | Where to start | Why |
 |---|---|
 | [`framework/learning-levels.md`](framework/learning-levels.md) | **The 1→100 ladder.** Every invention here is tagged with a level; pick your rung. |
-| [`framework/information-asymmetry.md`](framework/information-asymmetry.md) | The core theory: how sensor + ESP32 + software create advantages. |
+| [`framework/information-asymmetry.md`](framework/information-asymmetry.md) | The core theory: two axes of asymmetry — **perception** *and* **meaning**. |
+| [`framework/software-as-imagination.md`](framework/software-as-imagination.md) | **Read this second.** The software layer is where unlimited creativity lives; a humidity sensor touched by a finger can be a handshake, a spell, a heartbeat in a story. Twelve modes of software imagination. |
+| [`framework/riff-book.md`](framework/riff-book.md) | 60+ sensor-event → creative-software pairings. The community's living gallery. |
 | [`framework/software-hardware-pairing.md`](framework/software-hardware-pairing.md) | Every build is a hardware-software pair. Here's how to design them together. |
 | [`capabilities/`](capabilities/) | The seven base capabilities: **Generate, Transform, Distill, Find, Reason, Do, Represent**. |
 | [`hardware/`](hardware/) | ESP32 variants + a full sensor & add-on encyclopedia, indexed by capability. |
-| [`personas/`](personas/) | **100 personas** — spies, beekeepers, DJs, parents, ER nurses — each paired with an ESP32 build and the asymmetry it unlocks. Indexed by level in [`personas/personas-by-level.md`](personas/personas-by-level.md). |
-| [`projects/`](projects/) | **10 flagship buy/build guides**, each a rung on the ladder (level 10, 20, 30, … 100). Climb in order or skip ahead. |
+| [`personas/`](personas/) | **110 personas** — spies, beekeepers, DJs, parents, ER nurses, plus a [creative-remix tribe](personas/11-creative-remix.md) where the entire asymmetry is software imagination. Indexed by level in [`personas/personas-by-level.md`](personas/personas-by-level.md). |
+| [`projects/`](projects/) | **11 flagship buy/build guides** — 10 on the ladder (L10 → L100) plus the creative flagship [`pirate-stage-walkby`](projects/pirate-stage-walkby/) where walking past a hallway camera turns you into a pirate on rough seas on a projected wall. |
 | [`scraper/`](scraper/) | A **three-stage pipeline**: fetch video catalog → transcribe with YouTube subs + Whisper → synthesize LLM-made learning docs for every video. |
 
 ## The magical-library promise

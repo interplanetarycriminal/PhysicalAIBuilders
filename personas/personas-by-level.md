@@ -12,6 +12,7 @@ Each persona can be built at more than one level — we list the **entry-level**
 - #38 Haiku poet e-paper ([`04-arts-performance.md`](04-arts-performance.md))
 - #72 Pet-mood minimal (just collar-IMU bark detect) ([`08-domestic-heroes.md`](08-domestic-heroes.md))
 - #86 Librarian shelf beacon ([`09-strange-archetypal.md`](09-strange-archetypal.md))
+- #102 Handshake Across the Map ([`11-creative-remix.md`](11-creative-remix.md)) — capacitive-touch paired LEDs
 
 ## Level 20 — Connected Object (1 evening, $40)
 - #75 Homebrewer FermentDoc ([`08-domestic-heroes.md`](08-domestic-heroes.md))  ← **flagship build**
@@ -21,15 +22,19 @@ Each persona can be built at more than one level — we list the **entry-level**
 
 ## Level 30 — Opinionated Firmware (weekend, $60)
 - #74 Urban gardener AR oracle ([`08-domestic-heroes.md`](08-domestic-heroes.md))  ← **flagship build**
+- #101 Stage Walk-By Magician ([`11-creative-remix.md`](11-creative-remix.md))  ← **creative-track flagship**
 - #54 IP lawyer scanner ([`06-knowledge-workers-ai-builders.md`](06-knowledge-workers-ai-builders.md))
 - #31 DJ BPM basic version (no DMX yet) ([`04-arts-performance.md`](04-arts-performance.md))
 - #77 Car-free commuter meter ([`08-domestic-heroes.md`](08-domestic-heroes.md))
+- #109 Invisible-Piano Performer ([`11-creative-remix.md`](11-creative-remix.md))
 
 ## Level 40 — Multi-sensor Distill (1 week, $80)
 - #71 Parent sleep ally ([`08-domestic-heroes.md`](08-domestic-heroes.md))  ← **flagship build**
 - #76 Insomniac bedroom whisperer
 - #51 Research scientist bench logger ([`06-knowledge-workers-ai-builders.md`](06-knowledge-workers-ai-builders.md))
 - #56 Pediatrician waiting-room monitor
+- #104 Room Narrator ([`11-creative-remix.md`](11-creative-remix.md)) — chosen voice narrates room events
+- #103 Home Tamagotchi ([`11-creative-remix.md`](11-creative-remix.md)) — existing sensors drive a virtual creature's life
 
 ## Level 50 — TinyML on Device (2 weeks, $120)
 - #41 Parkour flowstate ([`05-sports-bodies.md`](05-sports-bodies.md))  ← **flagship build**

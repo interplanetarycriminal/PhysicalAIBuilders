@@ -6,6 +6,17 @@
 
 Generate is the *creative* verb. The output doesn't just describe or react; it is new content brought into the world by the device. Generation can be rule-based, procedural, model-based, or LLM-orchestrated.
 
+**Generate is the widest-open verb in this repo.** A sensor reading is raw vocabulary; Generate is the act of deciding what genre of sentence it becomes. That "sentence" can be:
+
+- a number → a **beat** in a procedural music piece (Generate audio)
+- a silhouette → a **pirate on rough seas** projected on a wall (Generate environmental fiction)
+- a finger-touch on a capacitive pad → a **spell cast** in a game (Generate game event)
+- an occupancy event → a **Cartman voice line** from an LLM + TTS (Generate persona)
+- a week of sleep data → a **tanka** on an e-paper (Generate narrative)
+- an ambient humidity curve → a **Tamagotchi-style pet's mood** in your home-sim (Generate world-state)
+
+See [`../framework/software-as-imagination.md`](../framework/software-as-imagination.md) for the twelve software-imagination modes and [`../framework/riff-book.md`](../framework/riff-book.md) for 60+ concrete pairings. Don't read Generate as "produce a number"; read it as "bring a world."
+
 ## Classic ESP32 implementations
 
 ### On-device
@@ -19,6 +30,11 @@ Generate is the *creative* verb. The output doesn't just describe or react; it i
 - **TTS from an LLM** — ESP32 sends state → cloud/Edge LLM → streams PCM audio back to ESP32's I²S DAC.
 - **Generative art** — ESP32 sensor state seeds a Stable-Diffusion / local diffusion run; result e-paper printed or displayed.
 - **Agentic generation** — Claude/LLM receives telemetry, generates a short personalized haiku, sends it to e-paper.
+- **World-building** — sensor events are beats in a running fictional world (Tamagotchi, home-sim, pirate stage). See [`../projects/pirate-stage-walkby/`](../projects/pirate-stage-walkby/).
+- **Game generation** — every sensor is an input to a game layer on top of reality; rules, points, quests are emitted by the software twin, not the firmware.
+- **Persona voicing** — events prompt an LLM playing a chosen character (Cartman, Attenborough, noir detective) to speak through a speaker or e-paper.
+- **Narrative transformation** — a day of telemetry is re-told in a chosen literary genre.
+- **Oracle / cosmology** — ambient state is read as omens; the software invents the symbolic system.
 
 ## Sensors & add-ons that feed Generate
 

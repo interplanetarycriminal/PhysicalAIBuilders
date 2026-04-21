@@ -10,7 +10,7 @@ Each entry names:
 - **Companion software** — the software twin that makes the hardware sing (see [`../framework/software-hardware-pairing.md`](../framework/software-hardware-pairing.md)).
 - **Why it's fun** — the emotional payoff.
 
-## The 10 tribes
+## The 11 tribes
 
 1. [Spies & Shadows](01-spies-and-shadows.md) — 007, Spy Kids, Carmen Sandiego, Q
 2. [Sci-fi tech geniuses & gadgeteers](02-sci-fi-tech-geniuses.md) — Stark, Hiro Hamada, MacGyver, Shuri
@@ -22,6 +22,7 @@ Each entry names:
 8. [Domestic heroes](08-domestic-heroes.md) — parents, pet owners, insomniacs, gardeners
 9. [Strange & archetypal](09-strange-archetypal.md) — cryptid hunters, librarians, cryptographers
 10. [High-stakes operations](10-high-stakes-operations.md) — wildfire commanders, ER nurses, disaster comms
+11. [Creative remix](11-creative-remix.md) — ten personas where the **entire asymmetry is software imagination**: stage walk-by magician, long-distance handshakes, home Tamagotchi, room narrator, gallery voting booth, escape-room designer, museum exhibit whisperer, desk-top theatre director, invisible piano, time-folded self.
 
 Many personas cross over to flagship projects in [`../projects/`](../projects/). When that link exists, the persona names it — the project is a full buy/build guide for that persona's idea.
 
