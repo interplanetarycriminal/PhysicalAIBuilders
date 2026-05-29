@@ -4,6 +4,11 @@
 > **Tribe:** Nature & survival (#24)
 > **One-line vibe:** a solar-powered hive sentinel that predicts swarms *days* ahead by listening to the bees.
 
+> ⚠️ **Hardware reality (May 29 kit):** no HX711 load cell, SEN55, solar or LoRa in the kit (the S3
+> board is there). It's a field-deployment flagship, not a tonight build. Nearest kit taste:
+> environmental sensing via [`kit-weather-station`](../kit-weather-station/). See the
+> [build-night inventory](../../build-night/inventory.md).
+
 ## The asymmetry
 
 Good beekeepers inspect once a week; the bees can prep to swarm in days. HiveLink watches 24/7 — weight trend, hive temperature profile, VOC / PM in entrance air, and (crucially) the *acoustic tonal shift* that precedes swarming. You get a swarm-date forecast on your phone instead of losing a colony.

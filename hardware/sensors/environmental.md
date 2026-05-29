@@ -1,5 +1,10 @@
 # Environmental sensors
 
+> 🧰 **In the May 29 kit:** NTC-MF52AT thermistor, XHT11 (DHT11-compatible temp + humidity), and
+> 18B20 (DS18B20 digital temp) — temperature and humidity only, no baro / VOC / PM / CO₂. Powers the
+> [`kit-weather-station`](../../projects/kit-weather-station/). Full list:
+> [`build-night/inventory.md`](../../build-night/inventory.md).
+
 Temperature, humidity, barometric pressure, volatile organic compounds (VOCs), particulate matter (PM1/2.5/10), CO₂, NOx. The air-quality stack.
 
 ## Part catalog

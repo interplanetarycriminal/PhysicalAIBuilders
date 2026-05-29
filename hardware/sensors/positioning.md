@@ -1,5 +1,9 @@
 # Positioning sensors
 
+> 🛰️ **Not in the May 29 kit (aspirational).** No GPS / GNSS / UWB / magnetometer module tonight.
+> The only spatial parts are the [ultrasonic](radar-lidar.md) (range) and the hall sensor (magnetic
+> presence). See [`build-night/inventory.md`](../../build-night/inventory.md).
+
 GPS/GNSS, UWB, magnetometers, pressure altimetry, Wi-Fi fingerprinting. The "where am I, and where are you?" stack.
 
 ## Part catalog

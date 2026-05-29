@@ -1,5 +1,10 @@
 # RF / wireless sensing (including Wi-Fi CSI)
 
+> 🛰️ **Mostly aspirational for the May 29 kit.** No LoRa / UWB / nRF24 *modules* are in the kit —
+> but the radio is on every board, so Wi-Fi CSI on a **classic ESP32** needs no extra parts. Treat
+> CSI as an adventurous stretch, not a first build. See
+> [`build-night/inventory.md`](../../build-night/inventory.md).
+
 The ESP32 can listen to the radio environment in ways almost no other hobbyist chip can. **Wi-Fi Channel State Information (CSI)** in particular turns the ESP32 into a through-wall human-activity sensor — no camera, no mic.
 
 ## Built-in capabilities

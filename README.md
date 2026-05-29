@@ -13,9 +13,14 @@ A visionary, playful, and responsible field manual for the **Physical AI Builder
 | [`framework/software-hardware-pairing.md`](framework/software-hardware-pairing.md) | Every build is a hardware-software pair. Here's how to design them together. |
 | [`capabilities/`](capabilities/) | The seven base capabilities: **Generate, Transform, Distill, Find, Reason, Do, Represent**. |
 | [`hardware/`](hardware/) | ESP32 variants + a full sensor & add-on encyclopedia, indexed by capability. |
+| [`build-night/`](build-night/) | **Running a session? Start here.** The real hardware on the bench (a Keyestudio 42-in-1 kit + ESP32 pools), its working limits, and 6 builds you can ship in 2.5 hours. |
 | [`personas/`](personas/) | **100 personas** — spies, beekeepers, DJs, parents, ER nurses — each paired with an ESP32 build and the asymmetry it unlocks. Indexed by level in [`personas/personas-by-level.md`](personas/personas-by-level.md). |
 | [`projects/`](projects/) | **10 flagship buy/build guides**, each a rung on the ladder (level 10, 20, 30, … 100). Climb in order or skip ahead. |
 | [`scraper/`](scraper/) | A **three-stage pipeline**: fetch video catalog → transcribe with YouTube subs + Whisper → synthesize LLM-made learning docs for every video. |
+
+> **New here, or running a build night?** Most of this repo is *aspirational* — a 1→100 ladder of
+> what's possible. If you want what's **buildable tonight with real hardware**, go straight to
+> [`build-night/`](build-night/): the actual kit, its working limits, and six kit-only projects.
 
 ## The magical-library promise
 

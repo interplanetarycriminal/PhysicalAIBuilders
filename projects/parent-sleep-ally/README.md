@@ -4,6 +4,11 @@
 > **Tribe:** Domestic heroes (#71)
 > **One-line vibe:** a bedside object that *just knows* the night was okay, and tells you one honest sentence in the morning.
 
+> ⚠️ **Hardware reality (May 29 kit):** no LD2410B mmWave, SCD41 CO₂, I²S mic or e-paper in the kit.
+> Nearest kit stand-ins: **PIR** for presence (not breathing), the **sound sensor** for ambient
+> events, and the **LCD_128x32** for the morning line. Build the presence half tonight via
+> [`kit-tripwire-alert`](../kit-tripwire-alert/). See the [build-night inventory](../../build-night/inventory.md).
+
 ## The asymmetry
 
 Baby monitors are mostly fear-amplifiers — raw audio, raw video, noisy alerts. Sleep Ally does the opposite: it *distills* the night into one honest morning sentence, because its sensors (radar breathing, air quality, ambient audio events) let it know what most parents can only guess at.

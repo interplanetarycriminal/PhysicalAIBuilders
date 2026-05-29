@@ -1,5 +1,9 @@
 # Motion & inertial sensors
 
+> 🧰 **In the May 29 kit:** the ADXL345 3-axis accelerometer (I²C), plus motion-adjacent digital
+> parts — PIR, tilt, collision, reed switch and hall. No gyro / 9-DoF IMU. See
+> [`build-night/inventory.md`](../../build-night/inventory.md).
+
 Accelerometers, gyroscopes, magnetometers, vibration. The "is it moving, and how?" stack.
 
 ## Part catalog

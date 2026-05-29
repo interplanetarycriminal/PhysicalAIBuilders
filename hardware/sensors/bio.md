@@ -1,5 +1,9 @@
 # Bio sensors
 
+> 🛰️ **Not in the May 29 kit (aspirational).** No HR / ECG / EMG / GSR / SpO₂ parts tonight. The
+> closest bodily signals you can improvise are the thin-film pressure sensor (grip / seat presence)
+> or the ADXL345 (movement). See [`build-night/inventory.md`](../../build-night/inventory.md).
+
 Heart rate, HRV, SpO2, ECG, EMG, GSR, respiration, skin temperature. The "what is the body doing?" stack.
 
 ## Part catalog

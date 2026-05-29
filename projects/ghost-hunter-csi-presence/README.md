@@ -4,6 +4,11 @@
 > **Tribe:** Strange & archetypal (#81)
 > **One-line vibe:** a device that knows if there's a person behind the wall — without a camera, without a microphone — and asks an LLM to narrate the weird.
 
+> ⚠️ **Hardware reality (May 29 kit):** no LD2410B mmWave or I²S mic — but Wi-Fi **CSI needs no
+> extra part** on a classic ESP32, so the core sense is adventurous-but-possible. Nearest kit
+> stand-ins: **PIR** + **sound sensor**. Build the presence half via
+> [`kit-tripwire-alert`](../kit-tripwire-alert/). See the [build-night inventory](../../build-night/inventory.md).
+
 ## The asymmetry
 
 You walk into a "haunted" room and can tell the skeptic's question calmly: **"There is someone moving in the next room; their approximate breath rate is 17/min; CSI and mmWave both agree."** Ordinary phones tell you nothing. This device, paired with an LLM narrator, converts raw radio-noise into a clean story.

@@ -1,5 +1,9 @@
 # Chemical / gas / scent sensors
 
+> 🧰 **In the May 29 kit:** the Analog Gas, Alcohol and Steam sensors (MQ-style). All are **5V**
+> parts whose analog output can exceed 3.3V — **divide it** to 3.3V before a GPIO, and give the gas
+> sensor warm-up time. See [`build-night/safety-and-gpio.md`](../../build-night/safety-and-gpio.md).
+
 Specific gases (CO, CO₂, CH₄, H₂, O₂, O₃, NO₂, VOCs), odor arrays (e-noses). The "what's in the air?" stack (specific-species edition — see [`environmental.md`](environmental.md) for the broad IAQ stack).
 
 ## Part catalog

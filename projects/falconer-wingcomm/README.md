@@ -4,6 +4,11 @@
 > **Tribe:** Nature & survival (#23)
 > **One-line vibe:** a pair of devices — one on the falcon's jesses, one on your glove — that link your bird's flight data back to a quiet little display on your wrist.
 
+> ⚠️ **Hardware reality (May 29 kit):** no T-Beam, GPS, BMP280 or LoRa radio in the kit — this needs
+> hardware well beyond the bench. The only tonight comms are **on-board Wi-Fi/BLE** between two kit
+> boards (try ESP-NOW). For a buildable win, pick any [`kit-` project](../README.md). See the
+> [build-night inventory](../../build-night/inventory.md).
+
 ## The asymmetry
 
 Traditional telemetry gives you a GPS point. WingComm gives you *context*: altitude, vertical speed, heading, "has the bird stooped", paired with a 2-D map on the glove. You always know where the bird is in space, and you know it without looking down at a phone.

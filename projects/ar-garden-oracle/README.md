@@ -4,6 +4,11 @@
 > **Tribe:** Domestic heroes (#74)
 > **One-line vibe:** point your phone at a plant; the plant tells you what it needs, sourced from its own sensors.
 
+> ⚠️ **Hardware reality (May 29 kit):** no AS7341 spectral sensor or soil-moisture probe in the kit
+> (the S3 board itself is there). Nearest kit stand-ins: the **photoresistor** for light and the
+> **steam/water sensor** as a crude moisture proxy. Build an environmental readout tonight via
+> [`kit-weather-station`](../kit-weather-station/). See the [build-night inventory](../../build-night/inventory.md).
+
 ## The asymmetry
 
 Most gardeners look at a plant and guess. AR Garden Oracle reads the plant's soil moisture, spectral reflectance (via a small probe), and ambient light, then narrates — over AR — exactly which plant in your bed needs which intervention today.

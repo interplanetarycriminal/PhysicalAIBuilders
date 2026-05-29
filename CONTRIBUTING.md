@@ -22,6 +22,14 @@ Edit the matching file under [`hardware/sensors/`](hardware/sensors/) or [`hardw
 ### 3. Add a creator to the scraper
 Edit [`scraper/creators.yaml`](scraper/creators.yaml). Add their channel handle or channel ID and a one-line note on what makes their ESP32 / Physical-AI work distinctive. Then run the scraper to refresh the video index.
 
+### 4. Add a kit-only build, or ground a flagship in real hardware
+If you ran a [build night](build-night/) and shipped something with only the parts on the bench, add
+it as a `projects/kit-<slug>/` guide (copy [`projects/_template/`](projects/_template/)) and list it
+in [`projects/README.md`](projects/README.md). Keep it **kit-only** — no parts beyond
+[`build-night/inventory.md`](build-night/inventory.md) — and link to
+[`build-night/safety-and-gpio.md`](build-night/safety-and-gpio.md) for the voltage and pin limits. If
+a flagship misled you about what's buildable tonight, tighten its ⚠️ *Hardware reality* banner.
+
 ## Style
 
 - **Short, dense, vivid.** No filler paragraphs.

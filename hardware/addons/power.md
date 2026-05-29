@@ -1,5 +1,9 @@
 # Power
 
+> 🧰 **In the May 29 kit:** the 6-slot **AA holder** + the **ESP32-IO expansion board's** switchable
+> 3.3V / 5V rail (plus laptop USB). No LiPo / solar / PMIC — the AA pack is how you feed 5V actuators
+> without browning out USB. See [`build-night/safety-and-gpio.md`](../../build-night/safety-and-gpio.md).
+
 Batteries, charging, solar, PMICs, buck/boost, protected cells, deep-sleep design.
 
 ## The power question to answer first

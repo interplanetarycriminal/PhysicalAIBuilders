@@ -4,6 +4,11 @@
 > **Tribe:** High-stakes operations (#91)
 > **One-line vibe:** a ridge-top device that watches for smoke, heat, and wind-shift — mesh-networked across a valley, and feeds a SitRep-writing agent.
 
+> ⚠️ **Hardware reality (May 29 kit):** no MLX90640 thermal camera, SEN55, anemometer, LoRa or
+> solar. But the kit's **flame sensor** + **gas sensor** + **buzzer** make a crude fire/smoke alarm —
+> the spirit of this build at toy scale. Wire it like [`kit-tripwire-alert`](../kit-tripwire-alert/).
+> See the [build-night inventory](../../build-night/inventory.md).
+
 ## The asymmetry
 
 State fire lookouts sometimes can't see the valley for the haze; citizen cameras catch smoke after it's already bad. PyroSentinel nodes, placed on ridges with clear line-of-sight to a basin, combine thermal imaging, particulate sensing, wind direction, and humidity into a single mesh that surfaces *early* smoke plumes with quantified confidence — hours before the first call would come in.

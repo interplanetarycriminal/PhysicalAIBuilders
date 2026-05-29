@@ -1,5 +1,10 @@
 # Actuators (the Do side)
 
+> 🧰 **In the May 29 kit:** 9G servo, 130 DC motor, fan, 5V relay, laser, active buzzer and speaker.
+> The servo / motor / fan / relay are **5V** — run them off the **expansion board + AA pack**, never
+> a bare GPIO, and switch the motor/fan via the relay. See
+> [`build-night/safety-and-gpio.md`](../../build-night/safety-and-gpio.md).
+
 Motors, servos, solenoids, relays, speakers, haptic drivers, IR blasters, thermal printers. See [`../../capabilities/do.md`](../../capabilities/do.md) for safety rules.
 
 ## Part catalog

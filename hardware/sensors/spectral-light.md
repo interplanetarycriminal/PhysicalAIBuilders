@@ -1,5 +1,9 @@
 # Spectral & light sensors
 
+> 🧰 **In the May 29 kit:** the Photoresistor (lux, analog), Flame sensor (IR), IR Receiver
+> (+ remote), and the Laser emitter. No UV / colour / multispectral. See
+> [`build-night/inventory.md`](../../build-night/inventory.md).
+
 Visible light (lux), color, UV, multispectral (IR/NIR bands). The "what does the light look like?" stack.
 
 ## Part catalog

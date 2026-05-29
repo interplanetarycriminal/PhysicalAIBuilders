@@ -1,5 +1,10 @@
 # Audio sensors
 
+> 🧰 **In the May 29 kit:** the Sound Sensor (level / clap — analog or digital), with the Active
+> Buzzer and Speaker Module for output. No MEMS / I²S mic, so you get **level, not speech**. Powers
+> [`kit-sound-reactive-lights`](../../projects/kit-sound-reactive-lights/). See
+> [`build-night/inventory.md`](../../build-night/inventory.md).
+
 MEMS microphones, electret mics, ultrasonic, contact / piezo pickups, bone conduction. The "what does it sound like?" stack.
 
 ## Part catalog

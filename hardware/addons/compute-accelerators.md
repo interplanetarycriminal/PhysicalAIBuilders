@@ -1,5 +1,9 @@
 # Compute accelerators & AI co-processors
 
+> 🛰️ **Not in the May 29 kit (aspirational).** No Grove Vision / Coral / Jetson tonight. Your only
+> "accelerator" is the **ESP32-S3** itself (vector extensions); the heavy reasoning lives off-device
+> via Claude Code. See [`build-night/inventory.md`](../../build-night/inventory.md).
+
 When the ESP32's own compute isn't enough: TinyML-friendly accelerators, dedicated AI cameras, and pairable host compute.
 
 ## On-device: what the ESP32 itself can do

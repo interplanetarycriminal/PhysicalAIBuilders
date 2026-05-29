@@ -1,5 +1,11 @@
 # Displays & Represent add-ons
 
+> 🧰 **In the May 29 kit:** LCD_128x32 (I²C), HT16K33 8×8 dot matrix, TM1650 4-digit tube, the 6812
+> RGB, and simple LED / RGB / traffic-light modules. Powers
+> [`kit-weather-station`](../../projects/kit-weather-station/) and
+> [`kit-joystick-arcade`](../../projects/kit-joystick-arcade/). See
+> [`build-night/inventory.md`](../../build-night/inventory.md).
+
 Choose a display for its **emotional contract** as much as its pixel count. See [`../../capabilities/represent.md`](../../capabilities/represent.md).
 
 ## Part catalog

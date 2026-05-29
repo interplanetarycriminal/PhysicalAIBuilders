@@ -4,6 +4,11 @@
 > **Tribe:** Domestic heroes (#75)
 > **One-line vibe:** every batch of cider, beer, or kombucha you've ever brewed, measured like a lab — without the lab.
 
+> ⚠️ **Hardware reality (May 29 kit):** good news — the kit *has* the **18B20 (DS18B20)**, a **tilt
+> sensor** and an ESP32; it only lacks the **BME280**. Swap BME280 → the kit **XHT11 (DHT11)** for
+> humidity and you can largely build this tonight. Start from
+> [`kit-weather-station`](../kit-weather-station/). See the [build-night inventory](../../build-night/inventory.md).
+
 ## The asymmetry
 
 A brewer without FermentDoc guesses at primary-ferment temperature, gravity drop, and fermentation pause. A brewer **with** FermentDoc has a minute-by-minute graph of everything, a shareable batch record, and an LLM that explains *why* this batch tastes different from the last.

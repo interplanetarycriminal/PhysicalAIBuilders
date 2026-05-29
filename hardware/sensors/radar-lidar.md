@@ -1,5 +1,10 @@
 # Radar & LiDAR
 
+> 🧰 **In the May 29 kit (partial):** the SR01 / HC-SR04 **ultrasonic** is the only ranging part —
+> and the seed of [`kit-parking-sensor`](../../projects/kit-parking-sensor/). No mmWave / lidar / ToF.
+> It's a **5V** part: **divide the Echo line** to 3.3V. See
+> [`build-night/safety-and-gpio.md`](../../build-night/safety-and-gpio.md).
+
 mmWave radar, time-of-flight distance, LiDAR scanners. The "depth and presence without pixels" stack.
 
 ## Part catalog

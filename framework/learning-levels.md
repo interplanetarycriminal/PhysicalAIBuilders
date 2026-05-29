@@ -26,6 +26,15 @@ Each rung **builds on** the previous, but you can skip rungs if you've already e
 
 ---
 
+## The May 29 build-night kit covers Levels 1–20
+
+The hardware on the bench for a [build night](../build-night/) — a Keyestudio 42-in-1 kit + classic
+/ S3 / C3 ESP32 boards — fully covers **Spark (1), First Sense (10), and Connected Object (20)**. The
+six [`kit-` projects](../projects/) live on exactly these rungs and need no parts beyond the kit.
+**Levels 30+ need hardware beyond the kit** (soldering, PSRAM cameras, mmWave, LoRa, TinyML rigs) —
+the flagship projects there each carry a ⚠️ *Hardware reality* banner naming the nearest kit-only
+cousin. See [`build-night/inventory.md`](../build-night/inventory.md) for the exact parts.
+
 ## How to use the levels
 
 ### As a learner

@@ -4,6 +4,12 @@
 > **Tribe:** Spies & Shadows (#6 Carmen Sandiego, #10 Q)
 > **One-line vibe:** a badge that gently lights up when you're near someone who shares one of your interests.
 
+> ⚠️ **Hardware reality (May 29 kit):** the kit has no SSD1306 OLED, XIAO ESP32-C3 or LiPo — but
+> this is the closest flagship to the bench. The **6812 RGB** gives you the "aura" and the **S3
+> pool** does the BLE. Build the ambient-light half tonight via
+> [`kit-sound-reactive-lights`](../kit-sound-reactive-lights/), and try BLE advertise/scan on an S3
+> as the stretch. See the [build-night inventory](../../build-night/inventory.md).
+
 ## The asymmetry
 
 Ordinary small-talk at a party fails because nobody knows who cares about what. AuraLens lets two strangers discover a shared interest *before* either of them has to commit to speaking. It's not matchmaking; it's an ambient cue, like eye contact with a stranger who reads the same book. The asymmetry: the wearer knows — from the color of their own badge — that someone nearby shares something non-trivial with them.

@@ -19,6 +19,22 @@ Ten fully-specified builds, one per level on [the learning ladder](../framework/
 | 90 | [`wildfire-lookout-pyrosentinel`](wildfire-lookout-pyrosentinel/) | High-stakes | ESP32-S3 + MLX90640 + SEN55 + BME + anemometer + LoRa + solar | ops dashboard + SitRep agent |
 | 100 | [`cold-case-sleuth-timefold`](cold-case-sleuth-timefold/) | Strange / Knowledge | multi-site ESP32 mesh + retention DB + agent | Claude-driven investigator |
 
+## Build-night (kit-only) projects
+
+Buildable **tonight** with only the [Keyestudio 42-in-1 kit](../build-night/inventory.md) — no parts
+beyond the bench. These fill the bottom rungs of the ladder and are the fast first wins for a
+[build night](../build-night/). (The 10 flagships above are *aspirational*: each needs hardware
+beyond the kit, and now carries a ⚠️ *Hardware reality* banner naming the nearest kit-only cousin.)
+
+| Level | Project | Kit parts | First win |
+|---|---|---|---|
+| 10 | [`kit-parking-sensor`](kit-parking-sensor/) | SR01 ultrasonic + buzzer | beeps faster as you approach |
+| 10 | [`kit-sound-reactive-lights`](kit-sound-reactive-lights/) | sound sensor + 6812 RGB | the strip dances to noise |
+| 10→20 | [`kit-tripwire-alert`](kit-tripwire-alert/) | PIR + relay + laser/buzzer | alarm when the beam is crossed |
+| 20 | [`kit-weather-station`](kit-weather-station/) | XHT11 (DHT11) + LCD_128x32 | live T/RH on the screen |
+| 20 | [`kit-joystick-arcade`](kit-joystick-arcade/) | joystick + HT16K33 8×8 | steer a dot on the matrix |
+| 20 | [`kit-rfid-doorman`](kit-rfid-doorman/) | RC522 + 9G servo + buzzer | a known card opens the "door" |
+
 ## Philosophy
 
 - **Every project teaches at its level and the one above.** Enough stretch to grow, not enough to drown.

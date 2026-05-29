@@ -16,6 +16,20 @@
 | Camera built in, cheap | **ESP32-CAM** (original ESP32 + OV2640) |
 | Integrated camera + mic + LCD, for ML-on-camera prototypes | **ESP-EYE** / **ESP32-S3-EYE** / **XIAO ESP32S3 Sense** |
 
+## On the May 29 bench (what we actually have)
+
+The [build night](../build-night/) narrows this whole family down to **three boards in two pools**:
+
+- **Classic pool — ESP32-WROOM-32E + Keyestudio ESP32 Plus.** The default; all kit code targets it.
+  Needs the **CP2102/CH340 driver**; if upload hangs on `Connecting... _ _ _`, hold **BOOT**.
+- **S3 pool (×5) — ESP32-S3-WROOM-1.** Native USB (enable **USB CDC On Boot**), BLE, and the
+  "AI agent reacts physically" board. Big gotcha: **GPIO 22/23/24/25 don't exist — remap I²C.**
+- **Optional — ESP32-C3 (×2).** The **ESP32-CAM is off-limits** (needs soldering).
+
+Shared limits tonight: **ADC2 pins stop reading once Wi-Fi is on** (use ADC1); **5V actuators run
+off the expansion board + AA pack**, not USB. Full pin maps and rules:
+[`../build-night/safety-and-gpio.md`](../build-night/safety-and-gpio.md).
+
 ## Why it matters
 
 - **Radio stack is NOT the same across variants.** Wi-Fi CSI works well on the original ESP32; on newer variants, library support is still catching up. If your build depends on CSI, **start with ESP32**.

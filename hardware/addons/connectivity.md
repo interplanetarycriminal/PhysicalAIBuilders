@@ -1,5 +1,10 @@
 # Connectivity
 
+> 🧰 **In the May 29 kit:** just the **on-board radios** — Wi-Fi + BLE on every board, plus
+> **Bluetooth Classic on the classic ESP32 only** (the S3 does BLE). No LoRa / Thread / Zigbee /
+> cellular modules — those are aspirational. See
+> [`build-night/inventory.md`](../../build-night/inventory.md).
+
 Wi-Fi, Bluetooth, BLE, ESP-NOW, Thread, Zigbee, Matter, LoRa, LoRaWAN, nRF24, cellular.
 
 ## What's built in

@@ -1,5 +1,10 @@
 # Vision sensors
 
+> 🛰️ **Not in the May 29 kit (aspirational).** No camera tonight — the Freenove ESP32-CAM is in the
+> box but off-limits (soldering). The kit's nearest "see without pixels" parts are the
+> [ultrasonic](radar-lidar.md) and the IR obstacle / photo-interrupter modules. See
+> [`build-night/inventory.md`](../../build-night/inventory.md).
+
 Cameras (visible and thermal), ToF depth, event cameras. The "what can it see?" stack.
 
 ## Part catalog

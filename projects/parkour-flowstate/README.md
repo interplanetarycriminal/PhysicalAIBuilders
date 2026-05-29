@@ -4,6 +4,11 @@
 > **Tribe:** Sports & bodies (#41)
 > **One-line vibe:** a wearable that learns your flow-state vs fatigue from how you move, and tells you the exact jump where you tipped over.
 
+> ⚠️ **Hardware reality (May 29 kit):** no XIAO S3 *Sense*, heart-rate sensor or 6-axis IMU; the
+> kit's **ADXL345** 3-axis accelerometer is the nearest motion source (no HR, no on-camera TinyML).
+> Prototype a motion-reactive build tonight with the ADXL345 + 6812 RGB, or start from
+> [`kit-joystick-arcade`](../kit-joystick-arcade/). See the [build-night inventory](../../build-night/inventory.md).
+
 ## The asymmetry
 
 Athletes feel fatigue; they can't usually point to the precise moment. FlowState uses a wearable IMU + HRV and an on-device TinyML classifier to label every 2-second window as *flow, strain,* or *recovery.* Post-run, you see the exact jump where flow broke — a kind of self-knowledge ordinary video replay can't give you.

@@ -4,6 +4,12 @@
 > **Tribe:** Strange & archetypal / Knowledge workers (#83)
 > **One-line vibe:** a distributed, retention-minded Physical-AI network that finds *pattern breaks in time* across a space — and turns them into investigative leads for a patient human sleuth.
 
+> ⚠️ **Hardware reality (May 29 kit):** the kit has several ESP32 boards (a 2-node **ESP-NOW** mesh
+> is doable), but the longitudinal DB and investigator agent are off-device software. The
+> tonight-sized taste is one kit sensor → Claude Code as the reasoner (the
+> [`anthropics/claude-desktop-buddy`](../../build-night/README.md) pattern on an S3). See the
+> [build-night inventory](../../build-night/inventory.md).
+
 ## The asymmetry
 
 Most home sensor deployments answer "what's happening now?" TimeFold answers "what has been **unlike the usual** over the last 30, 90, 365 days — across many places at once?" It is a memory system disguised as a sensor network. Paired with a Claude / local LLM agent trained to think like a detective, it surfaces leads no human would have patience for.
