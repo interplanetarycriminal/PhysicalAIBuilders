@@ -1,0 +1,7 @@
+Boards (10 flashable, all plug-and-play with DuPont cables)
+Board	Qty	USB	Notes
+ESP32-WROOM-32E (classic dual-core)	5	USB-to-UART (CP2102/CH340)	The default board. All Keyestudio kit code is written for this. Easiest path.
+ESP32-S3-WROOM-1	5	Native USB (USB-OTG/Serial-JTAG)	Use for BLE, native-USB, and "AI agent reacts physically" demos. Different pinout, see Safety.
+ESP32-C3 mini (2-pack)	2	varies	Present but not the focus. Fewer GPIOs, different pinout. Optional only.
+Keyestudio ESP32 Plus	5	CP2102	Same family as the WROOM-32E, treat identically. (These are the receipt boards; the "classic" pool.)
+
